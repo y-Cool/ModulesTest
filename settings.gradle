@@ -1,0 +1,7 @@
+include ':libtest'
+include ':actiontest'
+include ':GooglePlayServer'
+include ':FacebookServer'
+include ':FunnySDK'
+include ':app'
+rootProject.name = "ModulesTest"
