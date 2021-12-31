@@ -33,7 +33,7 @@ uploadArchives {
         mavenDeployer {
             //aar的輸入地址
             repository(url: rootProject.uri('repo'))
-            pom.version = "1.0.1"
+            pom.version = "1.0.2"
             pom.artifactId = "googleplayserver"
             pom.groupId = "com.example.googleplayserver"
         }
